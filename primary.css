@@ -8,8 +8,8 @@
     flex-wrap: wrap;
 }
 
-/* Page Footer Contents */
-#page-footer .page-footer-contents {
+/* Page Footer Content */
+#page-footer .page-footer-content {
     font-size: 12pt;
     color: #FFFFFF;
     display: inline;
@@ -28,8 +28,8 @@
     padding: 8px 12px;
 }
 
-/* Page Header Contents */
-#page-header .page-header-contents {
+/* Page Header Content */
+#page-header .page-header-content {
     
 }
 
