@@ -9,7 +9,7 @@
 }
 
 /* Page Footer Content */
-#page-footer .page-footer-content {
+#page-footer > .page-footer-content {
     font-size: 12pt;
     color: #FFFFFF;
     display: inline;
@@ -29,7 +29,7 @@
 }
 
 /* Page Header Content */
-#page-header .page-header-content {
+#page-header > .page-header-content {
     
 }
 
