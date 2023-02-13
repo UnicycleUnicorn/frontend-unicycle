@@ -5,3 +5,5 @@ Insructions (add the following lines to your HTML head for specifc properites):<
 
 <B>Primary CSS: </B>```<link rel="stylesheet" href="https://unicycleunicorn.github.io/frontend-unicycle/primary.css">```<br>
 <B>Primary JS: </B>```<link rel="stylesheet" href="https://unicycleunicorn.github.io/frontend-unicycle/primary.js">```<br>
+
+Ensure that when you link the CSS, it goes above your current css so you have the ability to overwrite it.
