@@ -65,3 +65,65 @@ img.round-image {
 .unhide-transition-2-0s {
     transition: opacity 2.0s;
 }
+
+
+/* Navigation */
+/* Navigation Checkbox */
+input[type='checkbox'].navigation-checkbox {
+    color: black;
+    font-size: 12pt;
+    cursor: pointer;
+    visibility: hidden;
+    display: none;
+}
+
+/* Navigation Display & Navigation Hover */
+.navigation-display, .navigation-hover {
+    color: black;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+/* Navigation Display - Hover Color Change */
+.navigation-display:hover,
+.navigation-hover:hover,
+input[type='checkbox'].navigation-checkbox:hover, 
+input[type='checkbox'].navigation-checkbox:checked, 
+input[type='checkbox'].navigation-checkbox:hover + label.navigation-display, 
+input[type='checkbox'].navigation-checkbox:checked + label.navigation-display {
+    color: grey;
+}
+
+/* Navigation Container */
+.navigation-container {
+    font: initial;
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: dimgray;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* Navigation Containter - Expanded */
+input[type='checkbox'].navigation-checkbox:checked + label.navigation-display > .navigation-container, 
+input[type='checkbox'].navigation-checkbox:checked + label.navigation-display + .navigation-container, 
+.navigation-hover:hover > .navigation-container {
+    display: block;
+}
+
+/* Navigation Content */
+.navigation-content {
+    color: black;
+    padding: 10px 12px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Navigation Content - Hovering */
+.navigation-content:hover {
+    background-color: grey;
+    color: white;
+}
