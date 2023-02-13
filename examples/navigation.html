@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Navigation Example</title>
+        <link rel="stylesheet" href="https://unicycleunicorn.github.io/frontend-unicycle/primary.css">
+        <style>
+            :root {
+                color: white;
+            }
+            body, html {
+                margin: 0;
+                padding: 0;
+                background-color: darkcyan;
+            }
+            .navigation-display {
+                color: white;
+            }
+            .navigation-hover {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="page-header">
+            <span class="page-header-content">
+                <!-- navigation-checkbox -->
+                <!-- navigation-display -->
+                <!-- navigation-containter -->
+                    <!-- navigation-content -->
+                <input class="navigation-checkbox" type="checkbox" id="click">
+                <label for="click" class="fa-solid fa-bars navigation-display"></label>
+                <div class="navigation-container">
+                    <span class="navigation-content">This nav</span>
+                    <span class="navigation-content">clicks</span>
+                    <span class="navigation-content">and</span>
+                    <span class="navigation-content">stays</span>
+                </div>
+            </span>
+            <span class="page-header-content">
+                <!-- navigation-checkbox -->
+                <!-- navigation-display -->
+                    <!-- navigation-containter -->
+                        <!-- navigation-content -->
+                <input class="navigation-checkbox fa-solid fa-bars" type="checkbox" id="clickaway">
+                <label for="clickaway" class="fa-solid fa-bars navigation-display">
+                    <div class="navigation-container">
+                        <span class="navigation-content">This nav</span>
+                        <span class="navigation-content">clicks</span>
+                        <span class="navigation-content">and</span>
+                        <span class="navigation-content">closes</span>
+                        <span class="navigation-content">once</span>
+                        <span class="navigation-content">selected</span>
+                    </div>
+                </label>
+            </span>
+            <span class="page-header-content">
+                <!-- navigation-hover -->
+                    <!-- navigation-display -->
+                    <!-- navigation-containter -->
+                        <!-- navigation-content -->
+                <span class="navigation-hover">
+                    <i class="fa-solid fa-bars navigation-display"></i> <!-- You could also use a span for text -->
+                    <div class="navigation-container">
+                        <span class="navigation-content">This nav</span>
+                        <span class="navigation-content">opens</span>
+                        <span class="navigation-content">on a</span>
+                        <span class="navigation-content">hover</span>
+                    </div>
+                </span>
+            </span>
+            <span class="page-header-content">
+                <!-- navigation-hover -->
+                    <!-- navigation-display -->
+                    <!-- navigation-containter -->
+                        <!-- navigation-content -->
+                <span class="navigation-hover">
+                    I am a drop down ...
+                    <div class="navigation-container">
+                        <span class="navigation-content">This nav</span>
+                        <span class="navigation-content">opens</span>
+                        <span class="navigation-content">on a</span>
+                        <span class="navigation-content">hover</span>
+                        <span class="navigation-content">text</span>
+                    </div>
+                </span>
+            </span>
+        </header>
+        <script src="https://kit.fontawesome.com/2fc54de93d.js" crossorigin="anonymous"></script>
+    </body>
+</html>
