@@ -13,3 +13,9 @@ Ensure that when you link the CSS, it goes above your current css so you have th
 <B>Header & Footer</B><br>
 <a href="https://unicycleunicorn.github.io/frontend-unicycle/examples/header-footer.html">Header & Footer Example</a><br>
 <a href="https://github.com/UnicycleUnicorn/frontend-unicycle/blob/main/examples/header-footer.html">Header & Footer Code</a><br>
+
+<br>
+
+<B>Navigation</B><br>
+<a href="https://unicycleunicorn.github.io/frontend-unicycle/examples/navigation.html">Navigation Example</a><br>
+<a href="https://github.com/UnicycleUnicorn/frontend-unicycle/blob/main/examples/navigation.html">Navigation Code</a><br>
